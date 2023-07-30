@@ -23,6 +23,18 @@ import {
   jobit,
   tripguide,
   threejs,
+  choobs,
+  upwork,
+  codelap,
+  speero,
+  elunic,
+  atomkit,
+  pollenn,
+  shopfloor,
+  codelapPlatform,
+  ankur,
+  ahmed,
+  webber,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +54,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "MERN stack",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "MEAN stack",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Blockchain",
+    icon: backend,
   },
 ];
 
@@ -116,55 +128,66 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    company_name: "Elunic AG",
+    icon: elunic,
+    iconBg: "#0693e3",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining shopfloor.io using Angular, Nest.js, PostgresQL and RabbitMQ.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Choobs Ltd, Geneva",
+    icon: choobs,
+    iconBg: "#ffff",
+    date: "Feb 2019 - July 2022",
+    points: [
+      "Successfully contributed to the development of 4 large-scale software projects.",
+      "Developing, testing, maintaining web/mobile applications using both MERN and MEAN stacks and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Providing innovative solutions to very challenging technical problems.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full stack Developer (Remote)",
+    company_name: "Upwork",
+    icon: upwork,
+    iconBg: "#fff",
+    date: "Jan 2017 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Successfully completed 17+ projects with 5-star ratings.",
+      "Worked with teams of varying sizes from all over the world",
+      "Exposed to dozens of software projects",
+      "Learned about cutting-edge technologies",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Speero",
+    icon: speero,
+    iconBg: "#fff",
+    date: "Dec 2018 - Feb 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and testing Express.js REST APIs.",
+      "Migrating codebase to Typescript.",
+      "Developing custom services for web scrapping.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Chatbot Developer",
+    company_name: "Atomkit",
+    icon: atomkit,
+    iconBg: "#fff",
+    date: "April 2018 - July 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing, Developing and deploying Energy saving chatbot Takka for twitter.",
+      "Porting Takka to Google assistant and Amazon Alexa.",
     ],
   },
 ];
@@ -172,93 +195,121 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Muhammed is an excellent freelancer and developer. He took ownership of the project and worked on it sincerely. Will highly recommend Muhammed for any technology project. Will work again with him in future..",
+    name: "Ankur Dhamija",
+    designation: "CFA",
+    company: "Hello Vinci",
+    image: ankur,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Muhammed delivered good work on this job and I enjoyed working with him. He deliver all requirement, he ready to learn new things to finish the scope. I will work with him in near future.",
+    name: "Ahmed Ragaey",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Crystal service",
+    image: ahmed,
+  },
+  {
+    testimonial:
+      "Muhammed was very help with fixing some of the bugs encountered in our dashboard tables regarding pagination issue. He has a good understanding of the codebase and was very helpful",
+    name: "Webber Wang",
+    designation: "CTO",
+    company: "Codelab",
+    image: webber,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Codelab",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Codelab: is an open-source Web app builder built with Nx, React, Next.js, Nest.js, MobX, Neo4j, Tailwind, and Vercel, Codelab was one of the most advacnced codebases I have worked on and on of the best in developer experience. during my work on the Codelabe project I was responsible for implementing new features, fixing challenging bugs, both on the Frontend and the Backend.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mobx",
         color: "green-text-gradient",
+      },
+      {
+        name: "Nx",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "neo4j",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: codelapPlatform,
+    source_code_link: "https://github.com/codelab-app",
   },
   {
-    name: "Trip Guide",
+    name: "Shoopfloor.io",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Shoopfloor.io is a platform and a set of software modules that are meant to help machine builders/manufacturers quickly get started with the development of tailor-made Industry IoT solutions.",
     tags: [
       {
-        name: "nextjs",
+        name: "NestJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RabbitMQ",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Gitlab CI",
+        color: "red-text-gradient",
+      },
+      {
+        name: "PostgresQL",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Micro-service architecture",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: shopfloor,
+    source_code_link: "https://shopfloor.io/",
+  },
+  {
+    name: "Pollenn",
+    description:
+      "Pollenn.ch: A platform for collecting and managing geo-located environmental observation. The app is meant for tracking wildlife and invasive species. The app is built using the MERN-stack and uses Redux, redux-saga, and Leaflet for mapping functionality.  I was involved in the development of multiple features both on the Frontend and the Backend, writing technical documentations and optimizing the app's overall performance. All made significant contributions to the project's success.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reudx Redux-saga",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Leaflet",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pollenn,
+    source_code_link: "https://maps.pollenn.ch/",
   },
 ];
 

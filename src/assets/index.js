@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./me.ico";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,7 +29,18 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import speero from "./speero.png";
+import upwork from "./upwork.png";
+import choobs from "./choobs.jpeg";
+import codelap from "./codelap.png";
+import elunic from "./elunic-logo-weiss-.png";
+import atomkit from "./atomkit.jpeg";
+import pollenn from "./pollenn-platform.png";
+import shopfloor from "./shopfloor.png";
+import codelapPlatform from "./codelap-platform.png";
+import ankur from "./ankur.jpeg";
+import ahmed from "./ahmed-ragaey.jpeg";
+import webber from "./webber.jpeg";
 export {
   logo,
   backend,
@@ -59,4 +70,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  speero,
+  upwork,
+  choobs,
+  codelap,
+  elunic,
+  atomkit,
+  pollenn,
+  shopfloor,
+  codelapPlatform,
+  ankur,
+  ahmed,
+  webber,
 };
