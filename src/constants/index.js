@@ -204,7 +204,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Muhammed was very help with fixing some of the bugs encountered in our dashboard tables regarding pagination issue. He has a good understanding of the codebase and was very helpful",
+      "Muhammed was very helpful with fixing some of the bugs encountered in our dashboard tables regarding pagination issue. He has a good understanding of the codebase and was very helpful",
     name: "Webber Wang",
     designation: "CTO",
     company: "Codelab",
