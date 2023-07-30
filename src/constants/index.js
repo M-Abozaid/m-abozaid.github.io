@@ -28,6 +28,7 @@ import {
   ankur,
   ahmed,
   webber,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -84,6 +85,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Redux Toolkit",
@@ -162,7 +167,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Speero",
+    company_name: "Speero, KSA",
     icon: speero,
     iconBg: "#fff",
     date: "Dec 2018 - Feb 2019",
