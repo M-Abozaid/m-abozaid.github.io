@@ -31,6 +31,7 @@ import {
   ahmed,
   webber,
   angular,
+  shhfu,
 } from "../assets";
 
 export const navLinks = [
@@ -364,6 +365,47 @@ const projects = [
     ],
     image: sezame,
     source_code_link: "https://github.com/maze2-org/sezame-wallet",
+  },
+  {
+    name: "SHHFU",
+    description:
+      "SHHFU: An Ethereum NFT collection and marketplace that uses Web3 technologies and leverages the expertise of both the community and professionals to provide solutions to your housing problems. My role was a lead Full-Stack developer responsible for Writing Solidity smart contracts and implementing off-chain NFT-lising using EIP712,  building React.js App and Node.js APIs, blockchain integration, and writing technical documentation.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EIP712",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NFTs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shhfu,
+    source_code_link: "https://firguntech.com/",
   },
 ];
 

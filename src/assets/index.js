@@ -41,6 +41,7 @@ import shopfloor from "./shopfloor.png";
 import codelapPlatform from "./codelap-platform.png";
 import hugAtHome from "./hug-home.png";
 import sezame from "./sezame.jpeg";
+import shhfu from "./shhfu.png";
 import ankur from "./ankur.jpeg";
 import ahmed from "./ahmed-ragaey.jpeg";
 import webber from "./webber.jpeg";
@@ -89,4 +90,5 @@ export {
   webber,
   hugAtHome,
   sezame,
+  shhfu,
 };
