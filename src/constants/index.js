@@ -133,7 +133,7 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "Elunic AG",
+    company_name: "Elunic AG, Munich",
     icon: elunic,
     iconBg: "#0693e3",
     date: "March 2023 - Present",
