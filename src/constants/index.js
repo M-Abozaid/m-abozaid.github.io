@@ -32,6 +32,8 @@ import {
   webber,
   angular,
   shhfu,
+  freeports,
+  solidity,
 } from "../assets";
 
 export const navLinks = [
@@ -109,13 +111,14 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
   },
   {
     name: "figma",
@@ -406,6 +409,38 @@ const projects = [
     ],
     image: shhfu,
     source_code_link: "https://firguntech.com/",
+  },
+  {
+    name: "Freeports",
+    description:
+      "Freeports: A large-scale crypto trading platform that leveraged NestJS, MongoDB, Swagger for API documentation, and React with TypeScript, Redux, later migrated to Mobx. I had a leading role in the development of the project, and worked on some of the most essential features of the app such as secure private-key storage and management in the browser, Crypto vault integration, broker integration.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NestJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mobx",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swagger",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Crypto Vault",
+        color: "green-text-gradient",
+      },
+    ],
+    image: freeports,
   },
 ];
 

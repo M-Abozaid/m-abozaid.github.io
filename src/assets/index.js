@@ -21,15 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
+import solidity from "./tech/solidity.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import speero from "./speero.png";
 import upwork from "./upwork.png";
 import choobs from "./choobs.jpeg";
@@ -42,6 +35,7 @@ import codelapPlatform from "./codelap-platform.png";
 import hugAtHome from "./hug-home.png";
 import sezame from "./sezame.jpeg";
 import shhfu from "./shhfu.png";
+import freeports from "./freeports.png";
 import ankur from "./ankur.jpeg";
 import ahmed from "./ahmed-ragaey.jpeg";
 import webber from "./webber.jpeg";
@@ -69,13 +63,7 @@ export {
   typescript,
   threejs,
   angular,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  solidity,
   speero,
   upwork,
   choobs,
@@ -91,4 +79,5 @@ export {
   hugAtHome,
   sezame,
   shhfu,
+  freeports,
 };
