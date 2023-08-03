@@ -24,6 +24,7 @@ import {
   atomkit,
   pollenn,
   shopfloor,
+  hugAtHome,
   codelapPlatform,
   ankur,
   ahmed,
@@ -308,6 +309,35 @@ const projects = [
     ],
     image: pollenn,
     source_code_link: "https://maps.pollenn.ch/",
+  },
+  {
+    name: "HUG@HOME",
+    description:
+      "HUG@HOME is a platform for medical remote consultation, specifically implementing fast and reliable low-cost multi-user video conference solution that can work on multiple platforms (Browser, Android, IOS) and is built with Web technologies, many video conference solutions were tried including Jitsi, OpenVidu with KMS, but there were always comparability or scalability issues. we ended up using Mediasoup for WebRTC as it checked all our boxes in terms of being compatible with WebRTC on IOS, and being very reliable and stable. while it was challenging to implement Mediasoup server and clients from scratch at the time, it was a very fruitful experience that I have learned a lot from.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ionic",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sails.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mediasoup",
+        color: "green-text-gradient",
+      },
+    ],
+    image: hugAtHome,
+    source_code_link: "https://www.hug.ch/medecine-premier-recours/hughome",
   },
 ];
 

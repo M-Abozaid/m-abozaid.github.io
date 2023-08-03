@@ -39,9 +39,11 @@ import atomkit from "./atomkit.jpeg";
 import pollenn from "./pollenn-platform.png";
 import shopfloor from "./shopfloor.png";
 import codelapPlatform from "./codelap-platform.png";
+import hugAtHome from "./hug-home.png";
 import ankur from "./ankur.jpeg";
 import ahmed from "./ahmed-ragaey.jpeg";
 import webber from "./webber.jpeg";
+
 export {
   logo,
   backend,
@@ -84,4 +86,5 @@ export {
   ankur,
   ahmed,
   webber,
+  hugAtHome,
 };
