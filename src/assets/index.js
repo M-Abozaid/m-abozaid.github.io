@@ -40,6 +40,7 @@ import pollenn from "./pollenn-platform.png";
 import shopfloor from "./shopfloor.png";
 import codelapPlatform from "./codelap-platform.png";
 import hugAtHome from "./hug-home.png";
+import sezame from "./sezame.jpeg";
 import ankur from "./ankur.jpeg";
 import ahmed from "./ahmed-ragaey.jpeg";
 import webber from "./webber.jpeg";
@@ -87,4 +88,5 @@ export {
   ahmed,
   webber,
   hugAtHome,
+  sezame,
 };

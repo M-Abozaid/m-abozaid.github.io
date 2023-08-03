@@ -25,6 +25,7 @@ import {
   pollenn,
   shopfloor,
   hugAtHome,
+  sezame,
   codelapPlatform,
   ankur,
   ahmed,
@@ -335,9 +336,34 @@ const projects = [
         name: "Mediasoup",
         color: "green-text-gradient",
       },
+      {
+        name: "WebRTC",
+        color: "pink-text-gradient",
+      },
     ],
     image: hugAtHome,
     source_code_link: "https://www.hug.ch/medecine-premier-recours/hughome",
+  },
+  {
+    name: "Sezame Crypto Wallet",
+    description:
+      "Sezame.app: Is an open source React Native Crypto Wallet app for Android and iOS that supports multiple chains and NFTs, I was responsible for implementing blockchain integration as well as developing UI.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web3",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sezame,
+    source_code_link: "https://github.com/maze2-org/sezame-wallet",
   },
 ];
 
