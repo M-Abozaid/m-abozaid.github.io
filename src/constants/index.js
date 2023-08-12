@@ -34,6 +34,7 @@ import {
   shhfu,
   freeports,
   solidity,
+  rust,
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +120,10 @@ const technologies = [
   {
     name: "Solidity",
     icon: solidity,
+  },
+  {
+    name: "Rust",
+    icon: rust,
   },
   {
     name: "figma",

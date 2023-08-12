@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
 import solidity from "./tech/solidity.png";
+import rust from "./tech/rust-logo.png";
 
 import speero from "./speero.png";
 import upwork from "./upwork.png";
@@ -64,6 +65,7 @@ export {
   threejs,
   angular,
   solidity,
+  rust,
   speero,
   upwork,
   choobs,
